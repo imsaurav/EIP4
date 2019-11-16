@@ -5,7 +5,7 @@ Saurav's repository For EIP 4 class assignments by The School of AI- Rohan
 
 
 Session 1
-Score- 0.9882
+Score- 0.9888
 
 Session 1 Assignment-
 Convolution -  A combination or summation or overlap that has information about the last set of local information.
