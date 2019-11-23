@@ -4,7 +4,9 @@
  so had to batch normalize  and saw that the parameters have increased a little bit.(99.72 to 99.13).
  The gap was still similar post batch notmalization...so tried adding dropout for regularization
  Changed the drop out value from 0.25 to 0.1 to increase accuracy and added a few small layers too.
-Changing the batch size from 512 to 256 resulted in better learning and accuracy
+Changing the batch size from 512 to 256 resulted in better learning and accuracy.
+
+Anf observed 99.4 in 18 epochs with almost no gap between training and testing accuracy.
 
 
 
