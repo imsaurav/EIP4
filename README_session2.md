@@ -1,10 +1,10 @@
 
-# Decreased the no of parameters from 15k to 14k by minimising the no of channels used.
-# With 20 epochs found that there was a lot of gap between training and testing accuracy(99.67 to 99.05), 
-# so had to batch normalize  and saw that the parameters have increased a little bit.(99.72 to 99.13).
-# The gap was still similar post batch notmalization...so tried adding dropout for regularization
-# Changed the drop out value from 0.25 to 0.1 to increase accuracy
-# Changing the batch size from 512 to 256 resulted in better learning and accuracy
+ Decreased the no of parameters from 15k to 14k by minimising the no of channels used.
+ With 20 epochs found that there was a lot of gap between training and testing accuracy(99.67 to 99.05), 
+ so had to batch normalize  and saw that the parameters have increased a little bit.(99.72 to 99.13).
+ The gap was still similar post batch notmalization...so tried adding dropout for regularization
+ Changed the drop out value from 0.25 to 0.1 to increase accuracy and added a few small layers too.
+Changing the batch size from 512 to 256 resulted in better learning and accuracy
 
 
 
